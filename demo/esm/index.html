@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../../dist/assets/entry.css">
+</head>
+<body>
+  
+<h1>Demo</h1>
+<div id="app"></div>
+<script type="module">
+    import { createApp } from "vue/dist/vue.esm-bundler.js";
+    import SmartyUI, { SFCButton, JSXButton, MyButton } from "../../dist/smarty-ui.mjs";
+
+    createApp({
+        template: `
+      <JSXButton/>
+      <SFCButton/>
+      <SButton color="blue" round plain icon="search" >fff</SButton>
+         <SButton color="green" round plain icon="edit" >111</SButton>
+         <SButton color="gray" round plain icon="check" >2222</SButton>
+         <SButton color="yellow" round plain icon="message" >333</SButton>
+         <SButton color="red" round plain icon="delete" >444</SButton>
+         <SButton color="black" round plain icon="delete" >444</SButton>
+         <SButton color="indigo" round plain icon="delete" >444</SButton>
+         <SButton color="purple" round plain icon="delete" >444</SButton>
+         <SButton color="pink" round plain icon="delete" >444</SButton>
+    `}).use(SmartyUI).mount('#app')
+
+</script>
+</body>
+</html>
