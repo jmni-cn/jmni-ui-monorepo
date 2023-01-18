@@ -24,4 +24,3 @@ jobs:
         with:
           default_branch: 'publish'
           # dir: "dist"
-        run: npm publish
