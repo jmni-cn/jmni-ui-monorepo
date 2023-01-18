@@ -1,11 +1,11 @@
-import Button from "../Button";
+import Button from '../Button';
 
-import { shallowMount } from "@vue/test-utils";
-import { describe, expect, test } from "vitest";
+import { shallowMount } from '@vue/test-utils';
+import { describe, expect, test } from 'vitest';
 // 测试分组
 describe('Button', () => {
   // mount
-  test("mount  @vue/test-utils", () => {
+  test('mount  @vue/test-utils', () => {
     // @vue/test-utils
     const wrapper = shallowMount(Button, {
       slots: {
@@ -15,20 +15,24 @@ describe('Button', () => {
 
     // 断言
     expect(wrapper.text()).toMatchInlineSnapshot('"Button"');
-
   });
 
   describe('color', () => {
-    test("default", () => {
+    test('default', () => {
       const wrapper = shallowMount(Button, {
         slots: {
           default: 'Button'
         }
       });
-      expect(wrapper.classes().map(v => v.replace('\n','')).includes('bg-blue-500')).toMatchInlineSnapshot('true')
+      expect(
+        wrapper
+          .classes()
+          .map((v) => v.replace('\n', ''))
+          .includes('bg-blue-500')
+      ).toMatchInlineSnapshot('true');
     });
 
-    test("red", () => {
+    test('red', () => {
       const wrapper = shallowMount(Button, {
         slots: {
           default: 'Button'
@@ -38,7 +42,8 @@ describe('Button', () => {
         }
       });
 
-      expect(wrapper.classes().map(v => v.replace('\n',''))).toMatchInlineSnapshot(`
+      expect(wrapper.classes().map((v) => v.replace('\n', '')))
+        .toMatchInlineSnapshot(`
         [
           "",
           "",
@@ -60,19 +65,20 @@ describe('Button', () => {
           "hover:scale-105",
           "mx-1",
         ]
-      `)
+      `);
     });
-  })
+  });
 
-  describe("round", () => {
-    test("default", () => {
+  describe('round', () => {
+    test('default', () => {
       const wrapper = shallowMount(Button, {
         slots: {
-          default: "Button",
-        },
+          default: 'Button'
+        }
       });
 
-      expect(wrapper.classes().map(v => v.replace('\n',''))).toMatchInlineSnapshot(`
+      expect(wrapper.classes().map((v) => v.replace('\n', '')))
+        .toMatchInlineSnapshot(`
         [
           "",
           "",
@@ -97,17 +103,18 @@ describe('Button', () => {
       `);
     });
 
-    test("round:true", () => {
+    test('round:true', () => {
       const wrapper = shallowMount(Button, {
         slots: {
-          default: "Button",
+          default: 'Button'
         },
         props: {
-          round: true,
-        },
+          round: true
+        }
       });
 
-      expect(wrapper.classes().map(v => v.replace('\n',''))).toMatchInlineSnapshot(`
+      expect(wrapper.classes().map((v) => v.replace('\n', '')))
+        .toMatchInlineSnapshot(`
         [
           "",
           "",
@@ -133,15 +140,16 @@ describe('Button', () => {
     });
   });
 
-  describe("plain", () => {
-    test("default", () => {
+  describe('plain', () => {
+    test('default', () => {
       const wrapper = shallowMount(Button, {
         slots: {
-          default: "Button",
-        },
+          default: 'Button'
+        }
       });
 
-      expect(wrapper.classes().map(v => v.replace('\n',''))).toMatchInlineSnapshot(`
+      expect(wrapper.classes().map((v) => v.replace('\n', '')))
+        .toMatchInlineSnapshot(`
         [
           "",
           "",
@@ -166,17 +174,18 @@ describe('Button', () => {
       `);
     });
 
-    test("plain:true", () => {
+    test('plain:true', () => {
       const wrapper = shallowMount(Button, {
         slots: {
-          default: "Button",
+          default: 'Button'
         },
         props: {
-          plain: true,
-        },
+          plain: true
+        }
       });
 
-      expect(wrapper.classes().map(v => v.replace('\n',''))).toMatchInlineSnapshot(`
+      expect(wrapper.classes().map((v) => v.replace('\n', '')))
+        .toMatchInlineSnapshot(`
         [
           "",
           "",
@@ -202,21 +211,26 @@ describe('Button', () => {
     });
   });
 
-  test("icon", () => {
+  test('icon', () => {
     const wrapper = shallowMount(Button, {
       slots: {
-        default: "Button",
+        default: 'Button'
       },
       props: {
-        icon: "edit",
-      },
+        icon: 'edit'
+      }
     });
 
-    expect(wrapper.find("i").classes().map(v => v.replace('\n',''))).toMatchInlineSnapshot(`
+    expect(
+      wrapper
+        .find('i')
+        .classes()
+        .map((v) => v.replace('\n', ''))
+    ).toMatchInlineSnapshot(`
       [
         "i-ic-baseline-edit",
         "p-3",
       ]
     `);
   });
-})
+});

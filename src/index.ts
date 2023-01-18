@@ -8,9 +8,9 @@
 // createApp(SButton)
 // createApp(SFCButton)
 import { createApp } from "vue/dist/vue.esm-browser";
-import SmartyUI from './entry'
+import SmartyUI from "./entry";
 createApp({
-    template:`
+  template: `
     <div>
          <SButton color="blue" round plain icon="search" >fff</SButton>
          <SButton color="green" round plain icon="edit" >111</SButton>
@@ -22,7 +22,7 @@ createApp({
          <SButton color="purple" round plain icon="delete" >444</SButton>
          <SButton color="pink" round plain icon="delete" >444</SButton>
      </div>
-    `
+    `,
 })
-.use(SmartyUI)
-.mount("#app");
+  .use(SmartyUI)
+  .mount("#app");
