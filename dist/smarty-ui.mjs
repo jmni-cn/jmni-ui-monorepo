@@ -22,14 +22,14 @@ const props = {
     default: ""
   }
 };
-const MyButton = defineComponent({
+const Button = defineComponent({
   name: "SButton",
   props,
   setup(props2, {
     slots
   }) {
     var _a;
-    console.log(`html`, (_a = document.querySelector(`#app`)) == null ? void 0 : _a.innerHTML);
+    console.log("html", (_a = document.querySelector("#app")) == null ? void 0 : _a.innerHTML);
     const size = {
       small: {
         x: "2",
@@ -90,14 +90,15 @@ const JSXButton = defineComponent({
 });
 const entry = {
   install(app) {
-    app.component(MyButton.name, MyButton);
+    app.component(Button.name, Button);
     app.component(SFCButton.name, SFCButton);
     app.component(JSXButton.name, JSXButton);
   }
 };
 export {
   JSXButton,
-  MyButton,
+  Button as MyButton,
   SFCButton,
   entry as default
 };
+//# sourceMappingURL=smarty-ui.mjs.map
