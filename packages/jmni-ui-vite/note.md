@@ -1,9 +1,6 @@
-# smarty-ui-vite
+# jmni-ui-vite
 学习小册https://juejin.cn/book/7117582869358182403
 
-<p align="center">
-    <a href="https://github.com/jmni-cn/smarty-ui-vite/actions/workflows/master.yml"><img src="https://github.com/jmni-cn/smarty-ui-vite/actions/workflows/master.yml/badge.svg?branch=master" alt="CI" style="max-width: 100%;"></a>
-</p>
 
 # 待优化
 1. 文档自定义组件，显示demo和代码切换

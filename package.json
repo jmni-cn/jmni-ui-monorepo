@@ -1,15 +1,19 @@
 {
-  "name": "smarty-ui-vite",
+  "name": "jmni-ui-monorepo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "vite": "3.0.7"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3"
   }
 }

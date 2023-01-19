@@ -4,19 +4,22 @@ importers:
 
   .:
     specifiers:
+      husky: ^8.0.3
       vite: 3.0.7
     dependencies:
       vite: registry.npmmirror.com/vite/3.0.7
+    devDependencies:
+      husky: registry.npmmirror.com/husky/8.0.3
 
   packages/docs-vite:
     specifiers:
-      smarty-ui-vite-jmni: workspace:^0.1.2
+      jmni-ui-vite: workspace:^0.1.2
       vue: 3.2.37
     dependencies:
-      smarty-ui-vite-jmni: link:../smarty-ui-vite-jmni
+      jmni-ui-vite: link:../jmni-ui-vite
       vue: registry.npmmirror.com/vue/3.2.37
 
-  packages/smarty-ui-vite-jmni:
+  packages/jmni-ui-vite:
     specifiers:
       '@commitlint/cli': 17.0.2
       '@commitlint/config-conventional': 17.0.2

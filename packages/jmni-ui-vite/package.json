@@ -1,6 +1,6 @@
 {
-  "name": "smarty-ui-vite-jmni",
-  "version": "0.1.2",
+  "name": "jmni-ui-vite",
+  "version": "0.1.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,8 +12,7 @@
     "test": "vitest",
     "test:run": "vitest run",
     "lint": "eslint --fix --ext .ts,.vue,.tsx,.jsx,.js src",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.vue\" \"src/**/*.tsx\"",
-    "prepare": "husky install"
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.vue\" \"src/**/*.tsx\""
   },
   "keywords": [],
   "author": "",
