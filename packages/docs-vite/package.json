@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "smarty-ui-vite-jmni": "workspace:^0.1.2",
+    "jmni-ui-vite": "workspace:^0.1.2",
     "vue": "3.2.37"
   }
 }
