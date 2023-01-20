@@ -3,10 +3,11 @@
 <br><br>
 
 <p align="center">
-    <a href="https://github.com/jmni-cn/jmni-ui-monorepo/actions/workflows/master.yml"><img src="https://github.com/jmni-cn/jmni-ui-monorepo/actions/workflows/master.yml/badge.svg?branch=master" alt="CI" style="max-width: 100%;"></a>
+    <a href="https://www.npmjs.com/package/jmni-ui-vite"><img src="https://img.shields.io/npm/v/jmni-ui-vite?color=c95f8b&amp;label=" alt="NPM version"></a>
 </p>
 <br>
 
+[![CI](https://github.com/jmni-cn/jmni-ui-monorepo/actions/workflows/master.yml/badge.svg?branch=master)](https://github.com/jmni-cn/jmni-ui-monorepo/actions/workflows/master.yml)
 ![MIT](https://img.shields.io/github/license/jmni-cn/jmni-ui-monorepo?color=red)
 
 <br>
