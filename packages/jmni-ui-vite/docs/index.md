@@ -23,7 +23,7 @@ npm i jmni-ui-vite
 
 ```js
     import Vue from 'vue'
-    import SmartyUI from 'element-ui'
+    import JmniUI from 'element-ui'
 
     const App = {
         template: `
@@ -32,7 +32,7 @@ npm i jmni-ui-vite
     };
 
     createApp(App)
-        .use(SmartyUI)
+        .use(JmniUI)
         .mount("#app");
 
 ```
