@@ -6,6 +6,7 @@
 <p align="center">
     <a href="https://www.npmjs.com/package/jmni-ui-vite"><img src="https://img.shields.io/npm/v/jmni-ui-vite?color=c95f8b&amp;label=" alt="NPM version"></a>
 </p>
+
 [![CI](https://github.com/jmni-cn/jmni-ui-monorepo/actions/workflows/master.yml/badge.svg?branch=master)](https://github.com/jmni-cn/jmni-ui-monorepo/actions/workflows/master.yml)
 ![MIT](https://img.shields.io/github/license/jmni-cn/jmni-ui-monorepo?color=red)
 [![codecov](https://codecov.io/gh/jmni-cn/jmni-ui-monorepo/branch/master/graph/badge.svg?token=XZQW3QH3S5)](https://codecov.io/gh/jmni-cn/jmni-ui-monorepo)
