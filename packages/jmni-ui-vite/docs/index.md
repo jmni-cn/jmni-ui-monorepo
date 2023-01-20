@@ -16,7 +16,7 @@
 ## Install
 
 ```bash
-npm i smarty-admin-ui
+npm i jmni-ui-vite
 ```
 
 ## Quick Start
