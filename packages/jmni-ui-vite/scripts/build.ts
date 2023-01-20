@@ -13,7 +13,7 @@ const buildAll = async () => {
   // 复制 Package.json 文件
   const packageJson = require("../package.json");
   packageJson.main = "jmni-ui.umd.js";
-  packageJson.module = "jmni-ui.esm.js";
+  packageJson.module = "jmni-ui.mjs";
   fs.outputFile(
     path.resolve(config.build.outDir, `package.json`),
     JSON.stringify(packageJson, null, 2)
