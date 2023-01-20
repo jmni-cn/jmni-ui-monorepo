@@ -44,28 +44,26 @@ describe('Button', () => {
 
       expect(wrapper.classes().map((v) => v.replace('\n', '')))
         .toMatchInlineSnapshot(`
-        [
-          "",
-          "",
-          "py-1.5",
-          "px-3",
-          "rounded-lg",
-          "bg-red-500",
-          "hover:bg-red-400",
-          "border-red-500",
-          "cursor-pointer",
-          "border-solid",
-          "text-white",
-          "text-base",
-          "hover:text-white",
-          "transition",
-          "duration-300",
-          "ease-in-out",
-          "transform",
-          "hover:scale-105",
-          "mx-1",
-        ]
-      `);
+          [
+            "py-1.5",
+            "px-3",
+            "rounded-lg",
+            "bg-red-500",
+            "hover:bg-red-400",
+            "border-red-500",
+            "cursor-pointer",
+            "border-solid",
+            "text-white",
+            "text-base",
+            "hover:text-white",
+            "transition",
+            "duration-300",
+            "ease-in-out",
+            "transform",
+            "hover:scale-105",
+            "mx-1",
+          ]
+        `);
     });
   });
 
@@ -79,28 +77,26 @@ describe('Button', () => {
 
       expect(wrapper.classes().map((v) => v.replace('\n', '')))
         .toMatchInlineSnapshot(`
-        [
-          "",
-          "",
-          "py-1.5",
-          "px-3",
-          "rounded-lg",
-          "bg-blue-500",
-          "hover:bg-blue-400",
-          "border-blue-500",
-          "cursor-pointer",
-          "border-solid",
-          "text-white",
-          "text-base",
-          "hover:text-white",
-          "transition",
-          "duration-300",
-          "ease-in-out",
-          "transform",
-          "hover:scale-105",
-          "mx-1",
-        ]
-      `);
+          [
+            "py-1.5",
+            "px-3",
+            "rounded-lg",
+            "bg-blue-500",
+            "hover:bg-blue-400",
+            "border-blue-500",
+            "cursor-pointer",
+            "border-solid",
+            "text-white",
+            "text-base",
+            "hover:text-white",
+            "transition",
+            "duration-300",
+            "ease-in-out",
+            "transform",
+            "hover:scale-105",
+            "mx-1",
+          ]
+        `);
     });
 
     test('round:true', () => {
@@ -115,28 +111,26 @@ describe('Button', () => {
 
       expect(wrapper.classes().map((v) => v.replace('\n', '')))
         .toMatchInlineSnapshot(`
-        [
-          "",
-          "",
-          "py-1.5",
-          "px-3",
-          "rounded-full",
-          "bg-blue-500",
-          "hover:bg-blue-400",
-          "border-blue-500",
-          "cursor-pointer",
-          "border-solid",
-          "text-white",
-          "text-base",
-          "hover:text-white",
-          "transition",
-          "duration-300",
-          "ease-in-out",
-          "transform",
-          "hover:scale-105",
-          "mx-1",
-        ]
-      `);
+          [
+            "py-1.5",
+            "px-3",
+            "rounded-full",
+            "bg-blue-500",
+            "hover:bg-blue-400",
+            "border-blue-500",
+            "cursor-pointer",
+            "border-solid",
+            "text-white",
+            "text-base",
+            "hover:text-white",
+            "transition",
+            "duration-300",
+            "ease-in-out",
+            "transform",
+            "hover:scale-105",
+            "mx-1",
+          ]
+        `);
     });
   });
 
@@ -150,28 +144,26 @@ describe('Button', () => {
 
       expect(wrapper.classes().map((v) => v.replace('\n', '')))
         .toMatchInlineSnapshot(`
-        [
-          "",
-          "",
-          "py-1.5",
-          "px-3",
-          "rounded-lg",
-          "bg-blue-500",
-          "hover:bg-blue-400",
-          "border-blue-500",
-          "cursor-pointer",
-          "border-solid",
-          "text-white",
-          "text-base",
-          "hover:text-white",
-          "transition",
-          "duration-300",
-          "ease-in-out",
-          "transform",
-          "hover:scale-105",
-          "mx-1",
-        ]
-      `);
+          [
+            "py-1.5",
+            "px-3",
+            "rounded-lg",
+            "bg-blue-500",
+            "hover:bg-blue-400",
+            "border-blue-500",
+            "cursor-pointer",
+            "border-solid",
+            "text-white",
+            "text-base",
+            "hover:text-white",
+            "transition",
+            "duration-300",
+            "ease-in-out",
+            "transform",
+            "hover:scale-105",
+            "mx-1",
+          ]
+        `);
     });
 
     test('plain:true', () => {
@@ -186,28 +178,26 @@ describe('Button', () => {
 
       expect(wrapper.classes().map((v) => v.replace('\n', '')))
         .toMatchInlineSnapshot(`
-        [
-          "",
-          "",
-          "py-1.5",
-          "px-3",
-          "rounded-lg",
-          "bg-blue-100",
-          "hover:bg-blue-400",
-          "border-blue-500",
-          "cursor-pointer",
-          "border-solid",
-          "text-blue-500",
-          "text-base",
-          "hover:text-white",
-          "transition",
-          "duration-300",
-          "ease-in-out",
-          "transform",
-          "hover:scale-105",
-          "mx-1",
-        ]
-      `);
+          [
+            "py-1.5",
+            "px-3",
+            "rounded-lg",
+            "bg-blue-100",
+            "hover:bg-blue-400",
+            "border-blue-500",
+            "cursor-pointer",
+            "border-solid",
+            "text-blue-500",
+            "text-base",
+            "hover:text-white",
+            "transition",
+            "duration-300",
+            "ease-in-out",
+            "transform",
+            "hover:scale-105",
+            "mx-1",
+          ]
+        `);
     });
   });
 
