@@ -12,11 +12,12 @@
 [![codecov](https://codecov.io/gh/jmni-cn/jmni-ui-monorepo/branch/master/graph/badge.svg?token=XZQW3QH3S5)](https://codecov.io/gh/jmni-cn/jmni-ui-monorepo)
 
 <br><br>
-https://github.com/smarty-team/smarty-admin
+
+[github](https://github.com/jmni-cn/jmni-ui-monorepo)
 
 <br>
 
-[我的学习笔记、待更新]()
+[我的学习笔记、待更新](https://github.com/jmni-cn/jmni-ui-monorepo)
 <br>
 <br>
 
@@ -35,6 +36,6 @@ https://github.com/smarty-team/smarty-admin
 希望尽快上手 Jmni-UI，可以浏览 [Getting Started](https://jmni-ui-monorepo-jmni-ui-vite.vercel.app/)
 
 ## LICENSE
-[MIT](../../LICENSE)
+[MIT](https://github.com/jmni-cn/jmni-ui-monorepo/blob/master/LICENSE)
 
 Copyright (c) 2023 - present JIAMING
