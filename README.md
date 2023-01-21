@@ -18,8 +18,7 @@
 [Getting Started](https://jmni-ui-monorepo-jmni-ui-vite.vercel.app/)
 <br>
 
-https://github.com/smarty-team/smarty-admin
 
 <br>
 
-[我的学习笔记、待更新]()
+[我的学习笔记、待更新](https://github.com/smarty-team/smarty-admin)
